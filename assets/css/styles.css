@@ -750,8 +750,12 @@ p {
 }
 
 .single-feature .feature-desc {
-  font-size: 16px;
+font-size: 16px;
   line-height: 24px;
+  -webkit-line-clamp: 3; /* Adjust the number of lines as needed */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
   -webkit-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
 }
@@ -779,7 +783,7 @@ p {
 }
 
 .about-content .main-btn:hover {
-  background: #2748b4;
+  background: var(--heading-color);
   -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
           box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
 }
