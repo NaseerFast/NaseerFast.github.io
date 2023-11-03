@@ -14,7 +14,7 @@
   --body-color: #637381;
   --heading-color: #C1DEAE;
   /* --primary-color: #3056d3; */
-  --primary-color: #219F94;
+  --primary-color: #6cc34c;
   --white: #ffffff;
 }
 
@@ -252,7 +252,7 @@ p {
 }
 
 .navbar-brand img {
-  max-width: 160px;
+  max-width: 200px;
 }
 
 .navbar-toggler {
@@ -1326,7 +1326,7 @@ font-size: 16px;
 }
 
 .widget .footer-logo {
-  max-width: 160px;
+  max-width: 200px;
   display: block;
   margin-bottom: 10px;
 }
