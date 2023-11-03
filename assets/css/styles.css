@@ -562,11 +562,12 @@ p {
 .hero-image .video-btn {
   width: 100px;
   height: 100px;
-  background: var(--white);
+  /* background: var(--white); */
+  cursor: default;
   border-radius: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
+  display: hidden;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -576,8 +577,8 @@ p {
 }
 
 .hero-image .video-btn:hover {
-  background: var(--primary-color);
-  color: var(--white);
+  /* background: var(--primary-color); */
+  /* color: var(--white); */
 }
 
 .hero-image img {
